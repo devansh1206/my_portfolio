@@ -125,7 +125,7 @@ a {
 
 .hero-section-description {
   margin-top: 1rem;
-  width: 70%;
+  width: 90%;
   font-weight: 500;
 }
 
@@ -175,6 +175,7 @@ a {
 
 .hero-section-right {
   position: relative;
+  width: 50%;
 
 }
 
@@ -182,28 +183,28 @@ a {
   position: absolute;
 }
 
-.user-image {
-  /* height: 10px;  */
+/* .user-image {
   padding: 2.5rem;
-  /* filter: grayscale(0); */
   transition: all 1s;
   animation: scaleImage 5s linear infinite;
-  /* -moz-border-radius: 50px;
-    -webkit-border-radius: 50px; */
     border-radius: 100%;
   
 
-}
+} */
 
-.user-image img {
+/* .user-image img {
   width: 345px;
   height: 390px;
   border-radius: 100%;
-}
+} */
 
-.user-image img {
+/* .user-image img {
   z-index: -9;
 
+} */
+
+.myyimg{
+  width: 70px;
 }
 
 @keyframes scaleImage {
@@ -715,7 +716,7 @@ footer {
   position: relative;
   margin-top: -1px;
   background-color: #343d68;
-  padding: 5rem;
+  padding-bottom: 4rem;
 
 }
 
@@ -888,7 +889,7 @@ footer {
 
     .hero-section-right {
       position: relative;
-      margin-right: 26em;
+      /* margin-right: 26em; */
     }
 
     .user-image img {
@@ -1073,7 +1074,7 @@ footer {
 
     .hero-section-right {
       position: relative;
-      margin-right: 16rem;
+      /* margin-right: 16rem; */
     }
 
     .user-image img {
@@ -1101,10 +1102,9 @@ footer {
       font-weight: 500;
     }
 
-    .hero-section-left {
-      /* width: 100%; */
+    /* .hero-section-left {
       gap: 0.5rem;
-    }
+    } */
 
     .nav-items {
       margin-right: 200px;
@@ -1320,7 +1320,7 @@ footer {
 
     .hero-section-right {
       position: relative;
-      margin-right: 1rem;
+      /* margin-right: 1rem; */
     }
 
     .user-image img {
@@ -1337,7 +1337,7 @@ footer {
     }
 
     .hero-section-left {
-      /* width: 100%; */
+      width: 60%;
       margin-left: 4em;
       gap: 0.5rem;
     }
@@ -1346,11 +1346,6 @@ footer {
       font-size: 24px;
       color: #343d68;
       font-weight: 500;
-    }
-
-    .hero-section-left {
-      /* width: 100%; */
-      gap: 0.5rem;
     }
 
     .hero-section-description {
